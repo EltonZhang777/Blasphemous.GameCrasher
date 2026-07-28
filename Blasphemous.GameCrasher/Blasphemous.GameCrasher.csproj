@@ -8,20 +8,22 @@
     <Product>Game Crasher</Product>
     <Authors>NewbieElton</Authors>
     <Company>NewbieElton</Company>
-    <Description>A mod for Blasphemous 1</Description>
+    <Description>
+		A Blasphemous 1 mod that crashes the game when detecting specified loaded mods
+	</Description>
     <Version>0.1.0</Version>
 
     <TargetName>GameCrasher</TargetName>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <DocumentationFile>bin\$(Configuration)\$(TargetName).xml</DocumentationFile>
-    <RepositoryUrl>https://github.com/Example</RepositoryUrl>
+    <RepositoryUrl>https://github.com/EltonZhang777/Blasphemous.GameCrasher</RepositoryUrl>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Blasphemous.GameLibs" Version="4.0.67" />
-    <PackageReference Include="Blasphemous.ModdingAPI" Version="0.1.0" />
+    <PackageReference Include="Blasphemous.ModdingAPI" Version="3.0.1" />
   </ItemGroup>
 
   <Target Name="Development" AfterTargets="PostBuildEvent">
