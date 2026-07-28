@@ -11,7 +11,7 @@
     <Description>
 		A Blasphemous 1 mod that crashes the game when detecting specified loaded mods
 	</Description>
-    <Version>0.1.0</Version>
+    <Version>1.0.0</Version>
 
     <TargetName>GameCrasher</TargetName>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
